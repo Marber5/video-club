@@ -1,60 +1,40 @@
-# Project Title
+# HTML Video
 
-One Paragraph of project description goes here
+The HTML <video> tag is used to embed a media player which supports video playback into the HTML page. We use the HTML <video> tag and the <source> tag to show the video.
 
-## Getting Started
+## Browser output
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Attributes
 
-What things you need to install the software and how to install them
+Let us look at the attributes supported by the HTML <video> tag.
 
-```
-Give examples
-```
+    autoplay
+    controls
+    height and width
+    loop
+    muted
+    src
+    preload
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+In the above code,
 
-Say what the step will be
+    video.mp4 - path to the video we want to display
+    video/mp4 - the type of resource we want to display
+    controls - allows user to control the video
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+The video.mp4 file in the above example is located in the same directory as the HTML file.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+In the above program, we have used the autoplay attribute. The video will start playing as soon as it is ready, without requiring the user to click the play button. 
 
-### Break down into end to end tests
+### Deployment
+The control attribute allows the user to control the video. These controls might include things like a play button, a pause button, and volume control. This can be helpful for allowing the user to control the playback of the video, without needing to use any additional software or tools.
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -85,4 +65,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
